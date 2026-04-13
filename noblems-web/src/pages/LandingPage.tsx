@@ -24,7 +24,7 @@ export default function LandingPage() {
                     <div className="mt-8 flex gap-6">
 
                         <a
-                        href="https://discord.gg/Q7eCcY8C"
+                        href="https://discord.gg/fdXCtYHSrV"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="bg-green-500 px-8 py-3 rounded-lg font-semibold hover:bg-green-400 transition shadow-lg shadow-green-500/20 inline-block"
