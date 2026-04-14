@@ -6,7 +6,7 @@ import { BrowserRouter } from "react-router-dom"; // ✅ IMPORTANT
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <BrowserRouter basename="/NMSFrontend/">
+    <BrowserRouter>
       <App />
     </BrowserRouter>
   </React.StrictMode>
