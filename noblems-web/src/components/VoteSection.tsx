@@ -15,10 +15,10 @@ export default function VoteSection() {
     localStorage.setItem("voteUser", username);
 
     // 🔥 redirect to GTOP
-    const voteUrl = `https://gtop100.com/topsites/MapleStory/server-105857?vote=1&pingUsername=${encodeURIComponent(username)}`;
+    const voteUrl = `https://gtop100.com/MapleStory/server-105857?vote=1&pingUsername=${encodeURIComponent(username)}`;
 
-    window.location.href = voteUrl;
-    // window.open(voteUrl, '_blank')
+    // window.location.href = voteUrl;
+    window.open(voteUrl, '_blank')
 
     setMessage("Redirecting to vote site...");
     };
