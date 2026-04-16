@@ -17,8 +17,8 @@ export default function VoteSection() {
     // 🔥 redirect to GTOP
     const voteUrl = `https://gtop100.com/topsites/MapleStory/server-105857?vote=1&pingUsername=${encodeURIComponent(username)}`;
 
-    // window.location.href = voteUrl;
-    window.open(voteUrl, '_blank')
+    window.location.href = voteUrl;
+    // window.open(voteUrl, '_blank')
 
     setMessage("Redirecting to vote site...");
     };
